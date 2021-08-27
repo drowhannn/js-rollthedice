@@ -1,6 +1,6 @@
 const generateRandomNumber = (n) => {
   return Math.floor(Math.random() * n) + 1;
-};
+}; //random number between 1 to n
 
 const rollthedice = () => {
   let cpunum = generateRandomNumber(6);

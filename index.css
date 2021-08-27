@@ -37,6 +37,7 @@ body {
   font-size: 25px;
   margin-top: 70px;
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 .button__container button {
@@ -56,4 +57,19 @@ body {
   border-radius: 6px;
   max-width: 60vw;
   min-height: 80vh;
+}
+
+@media screen and (max-width: 800px) {
+  .dice__container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background-color: white;
+  }
+  .container > h1 {
+    font-size: 60px;
+  }
 }
